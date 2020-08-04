@@ -22,7 +22,7 @@ h1 {
 -----------------------------------------*/
 
 .container .squares:nth-child(-n+4) {
-    background-image: url("/Images/icons/smiley2.png");
+    background-image: url("../Images/icons/smiley2.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -41,7 +41,7 @@ h1 {
 
 .squares:nth-child(-n+4) p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.5cm;
+    font-size: .5cm;
     font-weight: 900;
     text-align: center;
     margin: 0;
@@ -75,7 +75,7 @@ h1 {
 -----------------------------------------------*/
 
 .container .squares:nth-child(-n+4):hover {
-    background-image: url("/Images/icons/smileyface1.png");
+    background-image: url("../Images/icons/smileyface1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -114,7 +114,7 @@ h1 {
     0%,
     100% {
         transform: translateY(0px);
-        background-image: url("/Images/icons/smileyface1.png");
+        background-image: url("../Images/icons/smileyface1.png");
     }
     50% {
         transform: translateY(330px);
