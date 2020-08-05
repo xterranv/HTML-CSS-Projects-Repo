@@ -1,165 +1,152 @@
 <!DOCTYPE html >
 <html lang="en">
-	<head>
-		<title>Ultimate Dog Resort</title>
-		<meta charset="utf-8">
-	</head>
-	<body>
-		<style>
-			.font_1	{
-				color: white;
-				font-size: 300%;
-				text-align: center;
-			}
-			
-			.font_2 {
-				color: white;
-				font-size: 175%;
-				text-align: left;
-			}
-			
-			.font_3 {
-				color: cornsilk;
-				font-size: 200%;
-				text-align: center;
-			}
-			
-			.font_4 {
-				background-color: gray;
-				font-size: 100%;
-			}
-			
-			.mtnBackgrnd {
-				background-image: URL("background_img.jpg");
-				background-repeat: no-repeat;
-				height: 1050px;
-			}
-			
-			li {color: white; font-size: 175%}
-				
-		</style>
-			
-		<!-- HOME PAGE -->
-		<Section class="mtnBackgrnd">
-				<div id="home">
-					<p class="font_1">Ultimate Xtreme Dog Park Adventures</p>
-					<p class="font_3">A True Adventure Resort for you and your dog</p>
-													
-					<!-- NAV -->
-					<div>
-						<a class="font_2" href="#home" id="link">HOME</a>	|
-						<a class="font_2" href="#gallery" id="">GALLERY</a>	|
-						<a class="font_2" href="#book" id="">BOOK NOW</a>
-					</div>
-					<!-- END NAV -->
-					<br>
-					
-					<!-- ABOUT US -->
-					<p class="font_2"><strong>Come for a day or plan a stay at the Ultimate Xtreme Adventure Park and Resort for you and your dog.</strong></p><br>
-					<p class="font_2"><strong>Nestled in the White Mtns of New England lies the best Adventure Pet resort in the United States.<br>
-					Bring your dog to learn to play one of many high enegry activities they'll love like:
-					<ul>
-						<li>Freestyle Flying Disc,</li> 
-						<li>Flyball,</li>
-						<li>Agility,</li>
-						<li>Dock jumping,</li>
-						<li>Herding,</li>
-					</ul>
-					</strong></p>
-					<br>
-					
-					<!-- END ABOUT US -->
-										
-					<!-- RESORT VIDEO -->
-					<div>
-						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gsYF8mMnufY" 
-						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ttOW2CWjqwU" 
-						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						<br>
-					</div>
-					<!-- END RESORT VIDEO -->
-				</div>
-		</section>
-		<!-- END HOME PAGE -->	
-				
-		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
-				<h1>Gallery</h1>
-				<!-- NAV -->
-					<div>
-						<a href="#home" id="link">HOME</a>	|
-						<a href="#gallery" id="">GALLERY</a>	|
-						<a href="#book" id="">BOOK NOW</a>
-					</div>
-				<!-- END NAV -->
-				
-				<div>
-					<!-- PHOTO 1 -->
-					<div>
-						<img src="dogs1.jpg" alt="Dog chasing tennis ball" width="550" height="475">
-					
-					<!-- END PHOTO 1-->
-						
-					<!-- PHOTO 2 -->
-					
-						<img src="dogs5.jpg" alt="Dog Flyball" width="550" height="475">
-					
-					<!-- END PHOTO  2 -->
-					</div>	
-					<!-- PHOTO 3 -->
-					<div>
-						<img src="dogs8.jpg" alt="Dog Frisbee" width="550" height="475">
-					
-					<!-- END PHOTO 3 -->
-						
-					<!-- PHOTO 4 -->
-					
-						<img src="dogs4.jpg" alt="Dog deck jumping" width="550" height="475">
-					</div>
-					<!-- END PHOTO 4 -->
-				</div>
-			</div>
-		</section>
-		<!-- END GALLERY -->
-		
-		<!-- BOOK NOW -->
-		<section class="font_4">
-			<div id="book">
-			<h1>BOOK NOW</h1>
-			<p> If you're interested in further details, Please fill in the form below to be contacted by a customer representative</p>
-				<form action="" method="get">
-					First Name: <input type="text" name="first_name"><br>
-					Last Name: <input type="text" name="last_name"><br>
-					Email Address: <input ="email" name="email"><br>
-					Phone Number: <input ="text" name="phone"><br>
-					Checkin Date: <input type="date" name="start_dt"><br>
-					Checkout Date: <input type="date" name="end_dt"><br>
-					Package Selection: <select id="packages" name="packages"><br>
+
+<head>
+    <title>Ultimate Dog Resort</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./CSS/one_page_website.css">
+</head>
+
+<body>
+
+
+    <!-- HOME PAGE -->
+    <div id="home">
+        <h1>Ultimate Xtreme Dog Park Adventures</h1>
+        <h2>A True Adventure Resort for you and your dog</h2>
+
+        <!-- NAV -->
+        <div class="wrap">
+            <div class="menu-container">
+                <ul>
+                    <a href="#home">HOME</a> |
+                    <a href="#gallery">GALLERY</a> |
+                    <a href="#book">BOOK NOW</a>
+                </ul>
+            </div>
+        </div>
+
+        <!-- END NAV -->
+        <br>
+
+        <!-- ABOUT US -->
+        <p><strong>Come for a day or plan a stay at the Ultimate Xtreme Adventure Park and Resort for you and your dog.<br>
+			Nestled in the White Mtns of New England lies the best Adventure Pet resort in the United States.<br>
+			Bring your dog to learn to play one of many high enegry activities they'll love like:
+				<ul>
+					<li>Freestyle Flying Disc,</li> 
+					<li>Flyball,</li>
+					<li>Agility,</li>
+					<li>Dock jumping,</li>
+					<li>Herding,</li>
+				</ul>
+		</strong>
+        </p>
+        <br>
+
+        <!-- END ABOUT US -->
+
+        <!-- RESORT VIDEO -->
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gsYF8mMnufY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ttOW2CWjqwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+        </div>
+        <!-- END RESORT VIDEO -->
+    </div>
+    <!-- </section> -->
+
+
+    <!-- END HOME PAGE -->
+
+    <!-- GALLERY -->
+    <section>
+        <div id="gallery">
+            <h1>Gallery</h1>
+            <!-- NAV -->
+            <div class="wrap">
+                <div class="menu-container">
+                    <ul>
+                        <a href="#home">HOME</a> |
+                        <a href="#gallery">GALLERY</a> |
+                        <a href="#book">BOOK NOW</a>
+                    </ul>
+                </div>
+            </div>
+            <!-- END NAV -->
+
+            <div>
+                <!-- PHOTO 1 -->
+                <div>
+                    <img src="dogs1.jpg" alt="Dog chasing tennis ball" width="550" height="475">
+
+                    <!-- END PHOTO 1-->
+
+                    <!-- PHOTO 2 -->
+
+                    <img src="dogs5.jpg" alt="Dog Flyball" width="550" height="475">
+
+                    <!-- END PHOTO  2 -->
+                </div>
+                <!-- PHOTO 3 -->
+                <div>
+                    <img src="dogs8.jpg" alt="Dog Frisbee" width="550" height="475">
+
+                    <!-- END PHOTO 3 -->
+
+                    <!-- PHOTO 4 -->
+
+                    <img src="dogs4.jpg" alt="Dog deck jumping" width="550" height="475">
+                </div>
+                <!-- END PHOTO 4 -->
+            </div>
+        </div>
+    </section>
+    <!-- END GALLERY -->
+
+    <!-- BOOK NOW -->
+    <section id="book">
+        <div class="container">
+            <h1><span></span>BOOK NOW<span></h1>
+            <p> If you're interested in further details, Please fill in the form below to be contacted by a customer representative</p>
+            <form action="" method="get">
+				First Name: <input type="text" name="first_name"><br> 
+				Last Name: <input type="text" name="last_name"><br> 
+				Email Address: <input type="email" name="email"><br> 
+				Phone Number: <input type="text" name="phone"><br> 
+				Checkin Date: <input type="date" name="start_dt"><br> 
+				Checkout Date: <input type="date" name="end_dt"><br> 
+				Package Selection: <select id="packages" name="packages"><br>
 						<option value="All Inclusive">All Inclusive Package</option>
 						<option value="Deluxe">Deluxe Package</option>
 						<option value="Super">Super Package</option>
 						<option value="Premium">Premium Package</option>
 						<option value="One Day">One Day Ticket</option>
 					</select>
-					<br>
-					<br>
-					<input type="submit" value="Submit">
-				</form>
-			</div>
-			<br>
-			
-			<!-- NAV -->
-				<div>
-					<a href="#home" id="link">HOME</a>	|
-					<a href="#gallery" id="">GALLERY</a>	|
-					<a href="#book" id="">BOOK NOW</a>
-				</div>
-			<!-- END NAV -->
-		</section>
-		<!-- END BOOK NOW -->
-	
-		<footer><h4>Ultimate Xtreme Dog Park Adventures - www.UltimateXtremeDogPark.com - Contact number: 1-800-555-5775</h4></footer>
-	</body>
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit">
+            </form>
+        </div>
+        <br>
+
+        <!-- NAV -->
+        <div class="wrap">
+            <div class="menu-container">
+                <ul>
+                    <a href="#home">HOME</a> |
+                    <a href="#gallery">GALLERY</a> |
+                    <a href="#book">BOOK NOW</a>
+                </ul>
+            </div>
+        </div>
+        <!-- END NAV -->
+    </section>
+    <!-- END BOOK NOW -->
+
+    <footer>
+        <h4>Ultimate Xtreme Dog Park Adventures - www.UltimateXtremeDogPark.com - Contact number: 1-800-555-5775</h4>
+    </footer>
+</body>
+
 </html>
